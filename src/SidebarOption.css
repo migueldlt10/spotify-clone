@@ -1,0 +1,23 @@
+.option {
+  color: grey;
+  align-items: center;
+  height: 40px;
+  cursor: pointer;
+  transition: 170ms color ease-in;
+  display: flex;
+}
+
+.option:hover {
+  color: #fff;
+}
+
+.option_icon {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.option > p {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 14px;
+}
